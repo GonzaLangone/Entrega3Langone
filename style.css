@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-color: rgb(163, 200, 232);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+header a:hover{
+    cursor: pointer;
+}
+header img{
+    width: 10%;
+    border-radius: 15px;
+}
+
+.pedidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pedidos h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.entregados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cancelados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.id-seccion{
+    display: flex;
+}
+.botones{
+    display: flex;
+}
+.boton-entregado{
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    background-color: aquamarine;
+}
+.boton-eliminar{
+    width: 100px;
+    margin: 1%;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(220, 116, 116);
+}
+.card-pedidos{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  200px;
+    height: 150px;
+}
+.card-pedidos-entregados{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  200px;
+    height: 150px;
+    background-color: rgb(105, 165, 105);
+
+}
+.card-pedidos-entregados h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.card-pedidos-cancelados{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width:  200px;
+    height: 150px;
+    background-color: rgb(220, 116, 116);
+}
+.card-pedidos-cancelados h1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.d-none{
+    display: none;
+}
+
+/*  */
+#estado{
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+}
+#cantidad{
+    position: relative;
+    left: 340px;
+    bottom: 45px;
+    color: aliceblue;
+    background-color: #000;
+    border: 1px solid rgba(255, 0, 0, 0.429);
+    width: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+/* boton carrito */
+
+.botonCarrito{
+    width: red;
+}
+/* por producto */
+.productoStock{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+}
